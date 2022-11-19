@@ -1,7 +1,7 @@
 {
-  "name": "monk",
+  "name": "monk-jmv",
   "description": "The wise MongoDB API",
-  "version": "7.3.4",
+  "version": "7.3.5",
   "main": "lib/monk.js",
   "types": "./index.d.ts",
   "keywords": [
@@ -19,9 +19,8 @@
     "url": "git://github.com/Automattic/monk.git"
   },
   "dependencies": {
-    "@types/mongodb": "^3.5.25",
     "debug": "*",
-    "mongodb": "^3.2.3",
+    "mongodb": "4.9.1",
     "monk-middleware-cast-ids": "^0.2.1",
     "monk-middleware-fields": "^0.2.0",
     "monk-middleware-handle-callback": "^0.2.0",
